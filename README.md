@@ -1,43 +1,143 @@
-# Chirpy Starter
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## 📚 Training Overview
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+This repository documents my **30-day AI/ML training journey** from June 21 to July 22, 2025. The training is structured in three progressive phases:
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+### Phase 1: Python Basics (Days 1-10)
+Building a rock-solid foundation in Python fundamentals:
+- Data Structures (Lists, Dictionaries, Tuples, Sets)
+- Functions & Modules
+- File Handling
+- Error Handling
 
-```shell
+### Phase 2: AI Libraries (Days 11-18)
+Learning the essential libraries that power AI/ML:
+- **NumPy**: Fast numerical arrays and operations
+- **Pandas**: Data manipulation and analysis
+- **OpenCV**: Computer vision and image processing
+
+### Phase 3: AI Concepts (Days 19-25)
+Understanding the theory and vocabulary of AI:
+- AI Hierarchy (AI, ML, Deep Learning)
+- Learning Paradigms (Supervised, Unsupervised, Reinforcement)
+- Problem Types (Regression, Classification, Clustering)
+- Core ML Vocabulary (Model, Features, Labels)
+- The Complete AI Workflow
+
+## 🗓️ Training Schedule
+
+**Total Duration**: 30 calendar days (25 training days + 5 Sundays off)  
+**Start Date**: June 21, 2025 (Saturday)  
+**End Date**: July 22, 2025 (Tuesday)  
+**Rest Days**: Sundays (June 22, 29, July 6, 13, 20)
+
+## 📖 Blog Structure
+
+Each day's entry follows a consistent format:
+- **Date & Phase**: Current training phase and day number
+- **Concepts Learned**: Detailed explanation of topics covered
+- **Real-World Applications**: How concepts apply to actual projects
+- **Today's Goal**: Summary of key takeaways
+
+## 🎯 Project Goals
+
+1. **Master Python Fundamentals**: Achieve 100% confidence in Python basics
+2. **Understand AI Libraries**: Learn what NumPy, Pandas, and OpenCV are used for
+3. **Grasp AI Concepts**: Build vocabulary and understanding of AI/ML theory
+4. **Prepare for Viva**: Be able to discuss AI intelligently and confidently
+5. **Enhance Jarvis Project**: Apply learnings to improve my voice assistant
+
+## 🛠️ Built With
+
+- **Jekyll**: Static site generator
+- **Chirpy Theme**: Minimal, responsive theme for technical writing
+- **Markdown**: Content formatting
+- **GitHub Pages**: Hosting (optional)
+
+## 📂 Repository Structure
+
+```
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _posts/                          # Daily training entries
+│   ├── 2025-06-21-day-01-*.md      # Phase 1: Python Basics
+│   ├── 2025-07-03-day-11-*.md      # Phase 2: AI Libraries
+│   └── 2025-07-14-day-19-*.md      # Phase 3: AI Concepts
+├── _config.yml                      # Jekyll configuration
+├── assets/                          # Images and resources
+└── README.md                        # This file
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## 🚀 Getting Started
 
-## Usage
+### Prerequisites
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+- Ruby >= 3.0
+- Jekyll >= 4.0
+- Bundler
 
-## Contributing
+### Installation
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+1. Clone the repository:
+```bash
+git clone https://github.com/ritikmehta/ai-training.git
+cd ai-training
+```
 
-## License
+2. Install dependencies:
+```bash
+bundle install
+```
 
-This work is published under [MIT][mit] License.
+3. Run the local server:
+```bash
+bundle exec jekyll serve
+```
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+4. Visit `http://localhost:4000` in your browser
+
+## 📝 Adding New Posts
+
+Daily entries follow Jekyll's naming convention:
+```
+YYYY-MM-DD-day-XX-topic-name.md
+```
+
+Place all posts in the `_posts/` directory.
+
+## 🎓 Key Learnings
+
+- **Python is the foundation**: Everything in AI/ML builds on solid Python skills
+- **Libraries are tools**: NumPy, Pandas, and OpenCV make complex tasks manageable
+- **AI is a hierarchy**: Understanding the relationship between AI, ML, and DL is crucial
+- **Data preparation is key**: 80% of ML work is cleaning and preparing data
+- **Workflow matters**: Following a structured process ensures project success
+
+
+## 📧 Contact
+
+**Ritik Mehta**
+- Location: Sangrūr, Punjab, IN
+- GitHub: [@ritik322](https://github.com/ritik322)
+
+## 🙏 Acknowledgments
+
+- **Anthropic's Claude**: For helping structure and document this training journey
+- **Jekyll Community**: For the amazing static site generator
+- **Chirpy Theme**: For the beautiful and functional theme
+- **Open Source Community**: For all the amazing AI/ML libraries and resources
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Star This Repository
+
+If you find this training journey helpful, please consider giving it a star! ⭐
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ and dedication to learning AI/ML</sub>
+</div>
+
